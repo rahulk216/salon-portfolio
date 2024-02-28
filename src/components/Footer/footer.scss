@@ -1,0 +1,85 @@
+@import '../../variables.scss';
+
+.footer-container{
+  background-image: url('/footerbg.jpg');
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  
+  .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.6;
+  }
+
+  .container{
+    margin: auto;
+    width: 100%;
+    padding: 35px 15px 15px 15px;
+    max-width: 100%;
+    position: relative;
+
+    .row{
+
+    display: flex;
+    flex-wrap: wrap;
+    .col:first-child{
+      width: 100%;
+      flex-grow: 1;
+      margin-bottom: 15px;
+      text-align: center;
+      color: $color2;
+      font-size: 2rem;
+    }
+    .col{
+    flex-basis: auto;
+    width: 50%;
+
+    .footer-items{
+      margin-bottom: 20px;
+      .title{
+        color: $color2;
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+
+      ul,li{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        color: $color2;
+        font-size: 1rem;
+      }
+    }
+    }
+    }
+
+    .bottom-container{
+
+      border-top: 1px solid #fff;
+
+      .social-container{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .copyright{
+        color: $color2;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 15px;
+        span {
+          color: #FDE08D;
+        }
+      }
+    }
+
+  }
+
+}
