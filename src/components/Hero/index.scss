@@ -1,0 +1,44 @@
+@import '../../variables.scss';
+
+.hero-container {
+    background: url('../../assets/hero.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        opacity: 0.8;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 0 $margin-container;
+        position: relative;
+
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 1rem;
+
+            strong {
+                @include color3;
+                text-transform: uppercase;
+            }
+        }
+
+        h2,
+        p {
+            color: $color2;
+        }
+    }
+}
