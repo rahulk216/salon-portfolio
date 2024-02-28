@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="overlay"></div>
-      <div className="container">
+      <div  data-aos="fade-right" data-aos-duration="1000"  className="container">
         <div className="row">
           <div className="col">
             <div className="logo">Zarah Unisex Salon</div>
