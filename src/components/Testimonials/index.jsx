@@ -39,7 +39,6 @@ const Testimonials = () => {
             slidesPerView={1}
             scrollbar={{ draggable: true }}
             navigation
-            onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
               <TestimonialBox />
