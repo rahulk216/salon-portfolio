@@ -5,19 +5,20 @@
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   
   .overlay{
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: #000;
-    opacity: 0.6;
+    opacity: 0.8;
   }
 
   .container{
     margin: auto;
     width: 100%;
-    padding: 35px 15px 15px 15px;
+    padding: 35px $margin-container 15px $margin-container;
     max-width: 100%;
     position: relative;
 
@@ -36,9 +37,12 @@
     .col{
     flex-basis: auto;
     width: 50%;
+    gap: 5px;
 
     .footer-items{
       margin-bottom: 20px;
+      padding: 0 10px;
+
       .title{
         color: $color2;
         margin-bottom: 15px;
@@ -72,8 +76,11 @@
       .copyright{
         color: $color2;
         text-align: center;
-        font-size: 1rem;
         margin-top: 15px;
+
+        p{
+          font-size: .8rem ;
+        }
         span {
           color: #FDE08D;
         }
