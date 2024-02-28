@@ -1,6 +1,10 @@
 import React from "react";
 import "./about.scss";
 import Button from "../Button";
+import Image1 from "../../assets/images/photo3.jpg"
+import Image2 from "../../assets/images/photo1.jpg"
+import Image3 from "../../assets/images/photo2.jpg"
+import Image4 from "../../assets/images/photo4.jpg"
 
 function About() {
   return (
@@ -25,19 +29,19 @@ function About() {
       <div className="image-container">
         <div className="image-1">
           <div className="overlay-1"></div>
-        <img src="src/assets/images/photo3.jpg" alt="photo" />
+        <img src={Image1} alt="photo" />
         </div>
         <div className="image-2">
         <div className="overlay-2"></div>
-        <img src="src/assets/images/photo1.jpg" alt="photo" />
+        <img src={Image2} alt="photo" />
         </div>
        <div className="image-3">
         <div className="overlay-3"></div>
-       <img src="src/assets/images/photo2.jpg" alt="photo" />
+       <img src={Image3} alt="photo" />
        </div>
        <div className="image-4">
        <div className="overlay-4"></div>
-       <img src="src/assets/images/photo4.jpg" alt="photo" />
+       <img src={Image4} alt="photo" />
        </div>
       </div>
     </div>
