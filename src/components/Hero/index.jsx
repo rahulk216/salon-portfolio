@@ -9,9 +9,10 @@ const Hero = () => {
       <div className="overlay"></div>
       <div className="hero-content">
         <h2 data-aos="fade-right" data-aos-duration="2000">
+          Elevate Your
           <Typewriter
             options={{
-              strings: ["Elevate Your Look", "Where Style Becomes You"],
+              strings: ["Style !!", "Confidence !!"],
               autoStart: true,
               loop: true,
             }}
