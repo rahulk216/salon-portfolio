@@ -51,7 +51,7 @@ function Footer() {
             <Facebook />
           </div>
           <div className="copyright">
-          <p>&copy; 2024 <span>Zarah Unisex Salon.</span> All Rights Reserved.</p>
+          <p>&copy; 2024 <span>Zarah Elite Unisex Salon.</span> All Rights Reserved.</p>
           </div>
         </div>
       </div>
