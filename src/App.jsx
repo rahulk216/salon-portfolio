@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import Hero from "./components/Hero";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
 
 function App() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Hero />
+      <About />
       <Testimonials />
       <Footer />
     </>
