@@ -29,7 +29,7 @@ function About() {
       <div className="image-container">
         <div className="image-1">
           <div className="overlay-1"></div>
-        <img src={Image1} alt="photo" />
+        <img src={Image4} alt="photo" />
         </div>
         <div className="image-2">
         <div className="overlay-2"></div>

@@ -14,7 +14,6 @@ padding: 35px $margin-container;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
-  height: 45dvh;
 
   .image-1 {
     position: relative;
@@ -32,9 +31,6 @@ padding: 35px $margin-container;
     &:hover .overlay-1 {
       opacity: 0;
       background-color: transparent;
-    }
-    img{
-      height: 100%;
     }
   }
  .image-2{
