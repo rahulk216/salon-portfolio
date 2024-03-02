@@ -2,6 +2,7 @@ import React from "react";
 import "./index.scss";
 import Button from "../Button";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -22,11 +23,13 @@ const Hero = () => {
           at<strong> Zarah Elite Unisex Salon</strong>, where everyone's beauty
           shines. Step in and discover a world where style knows no boundaries.
         </p>
-        <Button
-          label="OUR SERVICES"
-          animation="fade-left"
-          animationDuration="1500"
-        />
+        <Link to="/services">
+          <Button
+            label="OUR SERVICES"
+            animation="fade-left"
+            animationDuration="1500"
+          />
+        </Link>
       </div>
     </div>
   );

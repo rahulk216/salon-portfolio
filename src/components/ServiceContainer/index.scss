@@ -1,0 +1,63 @@
+@import '../../variables.scss';
+
+.service-container {
+    padding: $margin-container $margin-container;
+
+
+    .gender-box {
+        height: 350px;
+        margin-top: 20px;
+        position: relative;
+
+        &.male {
+            background: url('../../assets/images/male.jpg') no-repeat;
+            background-size: cover;
+            min-width: 100%;
+        }
+
+        &.female {
+            background: url('../../assets/images/female.jpg') no-repeat;
+            background-size: cover;
+            min-width: 100%;
+        }
+
+        p {
+            position: absolute;
+            left: 10px;
+            bottom: 80px;
+            color: #fff;
+        }
+
+        button {
+            margin: 0;
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            font-size: 1rem;
+            font-family: "Roboto", serif;
+            font-weight: 600;
+            border: 2px solid #fff;
+            @include color3;
+        }
+
+        .overlay {
+            @include overlay;
+        }
+    }
+
+}
+
+.modal {
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        all: unset;
+        display: block;
+        width: 100%;
+        text-align: center;
+        border: 1px solid #000;
+        margin: 20px 0;
+    }
+}
