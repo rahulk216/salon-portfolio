@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import "./index.scss";
+import { Close } from "../../assets/svg/Close";
 
 const ServiceContainer = () => {
   const [openModal, setOpenModal] = useState({
@@ -38,14 +39,21 @@ const ServiceContainer = () => {
       >
         {openModal.gender === "male" ? (
           <div className="modal men">
-            <h1>Men's Services</h1>
+            <div className="modal-heading">
+              <h1>Men's Services:</h1>
+              <span
+                onClick={() => setOpenModal({ open: false, gender: "male" })}
+              >
+                <Close />
+              </span>
+            </div>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
               aliquam dolorem vel reiciendis! Iste quos eveniet placeat nulla
               ullam perspiciatis officiis ratione, exercitationem at possimus
               sapiente. Obcaecati sunt officiis ea.
             </p>
-            <ul>
+            <ul className="services-list">
               <li>Lorem, ipsum.</li>
               <li>Lorem, ipsum.</li>
               <li>Lorem, ipsum.</li>
@@ -64,14 +72,21 @@ const ServiceContainer = () => {
           </div>
         ) : (
           <div className="modal women">
-            <h1>Women's Services</h1>
+            <div className="modal-heading">
+              <h1>Women's Services:</h1>
+              <span
+                onClick={() => setOpenModal({ open: false, gender: "male" })}
+              >
+                <Close />
+              </span>
+            </div>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
               aliquam dolorem vel reiciendis! Iste quos eveniet placeat nulla
               ullam perspiciatis officiis ratione, exercitationem at possimus
               sapiente. Obcaecati sunt officiis ea.
             </p>
-            <ul>
+            <ul className="services-list">
               <li>Lorem, ipsum.</li>
               <li>Lorem, ipsum.</li>
               <li>Lorem, ipsum.</li>

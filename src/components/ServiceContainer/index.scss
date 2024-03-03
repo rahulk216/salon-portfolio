@@ -47,17 +47,38 @@
 
 }
 
-.modal {
-    h1 {
-        font-size: 24px;
-    }
+.ReactModalPortal {
+    .ReactModal__Overlay {
+        background-color: rgba(0, 0, 0, 0.75) !important;
 
-    button {
-        all: unset;
-        display: block;
-        width: 100%;
-        text-align: center;
-        border: 1px solid #000;
-        margin: 20px 0;
+        .ReactModal__Content {
+            inset: auto !important;
+            bottom: 0 !important;
+
+            .modal {
+                h1 {
+                    font-size: 24px;
+                }
+
+                button {
+                    all: unset;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    border: 1px solid #000;
+                    margin: 20px 0;
+                }
+
+                .services-list {
+                    margin: 20px;
+                }
+
+                .modal-heading {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+        }
     }
 }
