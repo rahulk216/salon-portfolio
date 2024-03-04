@@ -21,14 +21,13 @@ function Footer() {
                 <li>+91 99887766</li>
 
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3889.4175307708792!2d74.8600580750749!3d12.880851987426226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDUyJzUxLjEiTiA3NMKwNTEnNDUuNSJF!5e0!3m2!1sen!2sin!4v1709569498183!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0, marginTop: '15px' }}
                   allowFullScreen=""
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Map"
+                  referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
               </ul>
             </div>
