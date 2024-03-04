@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="hero-container">
+    <div className="hero-container" id="#top">
       <div className="overlay"></div>
       <div className="hero-content">
         <h2 data-aos="fade-right" data-aos-duration="2000">
