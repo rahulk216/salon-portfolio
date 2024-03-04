@@ -12,7 +12,15 @@
         height: 100%;
         width: 100%;
         background-color: #000;
-        opacity: 0.8;
+        opacity: 0.6;
+        z-index: 10;
+    }
+
+    video {
+     object-fit: cover;
+     position: absolute;
+     top: 0;
+     left: 0;
     }
 
     .hero-content {
@@ -22,6 +30,7 @@
         height: 100%;
         padding: 0 $margin-container;
         position: relative;
+        z-index: 12;
 
         h2 {
             font-size: 36px;

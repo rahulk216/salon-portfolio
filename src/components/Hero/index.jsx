@@ -3,11 +3,22 @@ import "./index.scss";
 import Button from "../Button";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
+import videoLoop from "../../assets/video.mp4"
 
 const Hero = () => {
   return (
     <div className="hero-container" id="#top">
       <div className="overlay"></div>
+      <video 
+      className="video-background"
+      height={'100%'}
+      width={'100%'}
+      loop
+      autoPlay
+      muted
+      src={videoLoop}>
+      
+      </video>
       <div className="hero-content">
         <h2 data-aos="fade-right" data-aos-duration="2000">
           ELEVATE YOUR
