@@ -7,6 +7,14 @@ import Image3 from "../../assets/images/photo2.jpg";
 import Image4 from "../../assets/images/photo4.jpg";
 
 function About() {
+
+  const handleButtonClick = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth"
+    });
+  } 
+
   return (
     <div className="about-container">
       <div className="text-container">
@@ -20,6 +28,7 @@ function About() {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, eum!
         </p>
         <Button
+          handleClick={handleButtonClick}
           className="about-btn"
           label="CONTACT US"
           animation="fade-left"
