@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import "./index.scss";
 import { Close } from "../../assets/svg/Close";
@@ -8,6 +8,17 @@ const ServiceContainer = () => {
     gender: "male",
     open: false,
   });
+
+  useEffect(() => {
+    if(openModal.open){
+      document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+     return ()=> {
+    document.body.style.overflow = 'unset'
+     document.body.style.position = 'relative';
+    };
+    }
+  },[openModal])
   return (
     <div className="service-container">
       <h1>Our Services</h1>
