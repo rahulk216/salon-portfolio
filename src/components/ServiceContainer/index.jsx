@@ -10,15 +10,15 @@ const ServiceContainer = () => {
   });
 
   useEffect(() => {
-    if(openModal.open){
-      document.body.style.overflow = 'hidden';
-      document.body.style.position = 'fixed';
-     return ()=> {
-    document.body.style.overflow = 'unset'
-     document.body.style.position = 'relative';
-    };
+    if (openModal.open) {
+      document.body.style.overflow = "hidden";
+      document.body.style.position = "fixed";
+      return () => {
+        document.body.style.overflow = "unset";
+        document.body.style.position = "relative";
+      };
     }
-  },[openModal])
+  }, [openModal]);
   return (
     <div className="service-container">
       <h1>Our Services</h1>

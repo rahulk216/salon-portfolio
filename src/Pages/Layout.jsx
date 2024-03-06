@@ -5,10 +5,12 @@ import Footer from "../components/Footer/Footer";
 import About from "../components/About/About";
 import Offer from "../components/Offer/Offer";
 import ScrollToTop from "../components/ScrollToTop/index";
+import ComingSoon from "../components/ComingSoon";
 
 const Layout = () => {
   return (
     <>
+      <ComingSoon />
       <ScrollToTop />
       <Hero />
       <About />

@@ -1,0 +1,16 @@
+.coming-soon-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    z-index: 999;
+    background: #fff;
+    width: 100%;
+
+    &-text {
+        p {
+            font-size: 12px
+        }
+    }
+}
