@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.scss";
 import Instagram from "../../assets/icons/Instagram";
 import Facebook from "../../assets/icons/Facebook";
+import Twitter from "../../assets/icons/Twitter";
 
 function Footer() {
   return (
@@ -58,6 +59,7 @@ function Footer() {
           <div className="social-container">
             <Instagram />
             <Facebook />
+            <Twitter />
           </div>
           <div className="copyright">
             <p>
