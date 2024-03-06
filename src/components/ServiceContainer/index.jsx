@@ -25,7 +25,7 @@ const ServiceContainer = () => {
       <div className="gender-box male">
         <div className="overlay">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, rem.
+          Gentlemen, Get ready to elevate your style game! 
           </p>
           <button onClick={() => setOpenModal({ open: true, gender: "male" })}>
             FOR MEN
@@ -35,7 +35,7 @@ const ServiceContainer = () => {
       <div className="gender-box female">
         <div className="overlay">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, rem.
+          Ladies, Unlock your inner goddess with Zarah Elite! 
           </p>
           <button
             onClick={() => setOpenModal({ open: true, gender: "female" })}
@@ -59,22 +59,15 @@ const ServiceContainer = () => {
               </span>
             </div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
-              aliquam dolorem vel reiciendis! Iste quos eveniet placeat nulla
-              ullam perspiciatis officiis ratione, exercitationem at possimus
-              sapiente. Obcaecati sunt officiis ea.
+            It's time to experience the ultimate grooming experience at Zarah Elite! Our expert stylists are here to help you achieve the look you've always wanted.
             </p>
             <ul className="services-list">
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
+              <li>From classic cuts to modern fades, we've got you covered.</li>
+              <li>Beard trims and grooming to keep you looking sharp.</li>
+              <li>Relaxing hot towel shaves for the ultimate pampering.</li>
+              <li>Professional styling for that important meeting or special occasion.</li>
             </ul>
+            <p>Book your appointment now and discover why Zarah Elite is the go-to destination for discerning gentlemen who demand the best. Don't settle for anything less than perfection!</p>
             <p>
               For more information on men's services and pricing kindly download
               the PDF below.
@@ -92,22 +85,15 @@ const ServiceContainer = () => {
               </span>
             </div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
-              aliquam dolorem vel reiciendis! Iste quos eveniet placeat nulla
-              ullam perspiciatis officiis ratione, exercitationem at possimus
-              sapiente. Obcaecati sunt officiis ea.
+            It's time to indulge in some well-deserved pampering at Zarah Elite! Our team of skilled professionals is dedicated to helping you look and feel your absolute best.
             </p>
             <ul className="services-list">
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
+              <li>Treat yourself to a fabulous new hairstyle that will turn heads wherever you go.</li>
+              <li>Pamper your hands and feet with our luxurious manicure and pedicure services.</li>
+              <li>Enhance your natural beauty with our expert makeup application.</li>
+              <li>Relax and rejuvenate with our selection of spa treatments, including massages and facials.</li>
             </ul>
+            <p>Experience the ultimate in luxury and comfort at Zarah Elite. Whether you're in need of a quick touch-up or a complete transformation, we've got you covered!</p>
             <p>
               For more information on women's services and pricing kindly
               download the PDF below.

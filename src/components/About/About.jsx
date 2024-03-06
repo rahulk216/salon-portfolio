@@ -20,12 +20,10 @@ function About() {
       <div className="text-container">
         <h1 className="title">About Us</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim unde
-          sequi et ducimus eveniet iure optio consequuntur pariatur, odio
-          officiis!
+        At Zarah Elite, we believe that beauty is more than just skin deep. We are dedicated to providing an unparalleled salon experience where every client feels valued, beautiful, and empowered.
         </p>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, eum!
+        Come experience the difference. Schedule your appointment today and let us pamper you in our luxurious and welcoming environment. 
         </p>
         <Button
           handleClick={handleButtonClick}
