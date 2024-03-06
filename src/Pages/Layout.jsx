@@ -16,7 +16,7 @@ const Layout = () => {
         <Whatsapp />
       </a>
       <ScrollToTop />
-      <Hero />
+      <Hero page="home" />
       <About />
       <Offer />
       <Testimonials />

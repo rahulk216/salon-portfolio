@@ -15,7 +15,7 @@ const Services = () => {
         <Whatsapp />
       </a>
       <ScrollToTop />
-      <Hero />
+      <Hero page="service" />
       <ServiceContainer />
       <Footer />
     </>
