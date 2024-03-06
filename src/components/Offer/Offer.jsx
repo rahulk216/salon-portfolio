@@ -9,13 +9,10 @@ function Offer() {
       <div className="container">
         <div className="text-container">
           <h1 className="title">Offer-Promotion</h1>
-          <h3>First-Time Head Wash Special</h3>
-          <p>
-            "Debut Delight: Elevate Your Scalp Game with Our First-Time Head
-            Wash Promotion!"
-          </p>
+          <h3>First-Time hair cut offer</h3>
+          <p>Get a haircut and hairwash for just...</p>
           <div className="more-info">
-            <h2>45 &#8377;</h2>
+            <h2>&#8377; 400</h2>
             {/* <Button 
             label={'more >'}
             /> */}

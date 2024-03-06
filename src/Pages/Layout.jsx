@@ -6,11 +6,15 @@ import About from "../components/About/About";
 import Offer from "../components/Offer/Offer";
 import ScrollToTop from "../components/ScrollToTop/index";
 import ComingSoon from "../components/ComingSoon";
+import Whatsapp from "../assets/svg/Whatsapp";
 
 const Layout = () => {
   return (
     <>
       <ComingSoon />
+      <a target="_blank" rel="noreferrer" href="https://wa.me/+917829780587">
+        <Whatsapp />
+      </a>
       <ScrollToTop />
       <Hero />
       <About />

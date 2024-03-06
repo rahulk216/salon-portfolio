@@ -2,8 +2,10 @@ import React from "react";
 import "./index.scss";
 import Quote from "../../assets/svg/Quote";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+import { Navigation } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/navigation";
 
 const TestimonialBox = () => {
   return (
@@ -34,11 +36,11 @@ const Testimonials = () => {
         </p>
         <div className="testiomonial-box-container">
           <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            modules={[Navigation]}
             spaceBetween={50}
             slidesPerView={1}
             scrollbar={{ draggable: true }}
-            navigation
+            navigation={true}
           >
             <SwiperSlide>
               <TestimonialBox />
