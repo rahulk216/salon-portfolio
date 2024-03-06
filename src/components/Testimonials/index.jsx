@@ -6,6 +6,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import { Pagination } from "swiper/modules";
 
 const TestimonialBox = () => {
   return (
@@ -36,11 +39,12 @@ const Testimonials = () => {
         </p>
         <div className="testiomonial-box-container">
           <Swiper
-            modules={[Navigation]}
+            modules={[Navigation, Pagination]}
             spaceBetween={50}
             slidesPerView={1}
             scrollbar={{ draggable: true }}
             navigation={true}
+            pagination={true}
           >
             <SwiperSlide>
               <TestimonialBox />
