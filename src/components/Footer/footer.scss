@@ -1,13 +1,12 @@
 @import '../../variables.scss';
 
-.footer-container{
+.footer-container {
   background-image: url('/footerbg.jpg');
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  
-  .overlay{
+
+  .overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -15,64 +14,67 @@
     opacity: 0.8;
   }
 
-  .container{
+  .container {
     margin: auto;
     width: 100%;
     padding: 35px $margin-container 15px $margin-container;
     max-width: 100%;
     position: relative;
 
-    .row{
+    .row {
 
-    display: flex;
-    flex-wrap: wrap;
-    .col:first-child{
-      width: 100%;
-      flex-grow: 1;
-      margin-bottom: 15px;
-      text-align: center;
-      color: $color2;
-      font-size: 2rem;
-    }
-    .col:nth-child(2) {
-      width: 100%;
-      padding: 5px;
-      margin-bottom: 15px;
-      border: 1px solid #fff;
-    }
+      display: flex;
+      flex-wrap: wrap;
 
-    .col{
-    flex-basis: auto;
-    width: 50%;
-    gap: 5px;
-
-    .footer-items{
-      margin-bottom: 10px;
-      padding: 0 10px;
-
-      .title{
-        color: $color2;
+      .col:first-child {
+        width: 100%;
+        flex-grow: 1;
         margin-bottom: 15px;
-        font-size: 1.2rem;
-        font-weight: 500;
-      }
-
-      ul,li{
-        list-style: none;
-        padding: 0px;
-        margin: 0px;
+        text-align: center;
         color: $color2;
-        font-size: 1rem;
+        font-size: 2rem;
+      }
+
+      .col:nth-child(2) {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #fff;
+      }
+
+      .col {
+        flex-basis: auto;
+        width: 50%;
+        gap: 5px;
+
+        .footer-items {
+          margin-bottom: 10px;
+          padding: 0 10px;
+
+          .title {
+            color: $color2;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            font-weight: 500;
+          }
+
+          ul,
+          li {
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            color: $color2;
+            font-size: 1rem;
+          }
+        }
       }
     }
-    }
-    }
 
-    .bottom-container{
+    .bottom-container {
 
       border-top: 1px solid #fff;
 
-      .social-container{
+      .social-container {
         margin-top: 15px;
         display: flex;
         justify-content: center;
@@ -80,14 +82,15 @@
         gap: 10px;
       }
 
-      .copyright{
+      .copyright {
         color: $color2;
         text-align: center;
         margin-top: 15px;
 
-        p{
-          font-size: .8rem ;
+        p {
+          font-size: .8rem;
         }
+
         span {
           color: #FDE08D;
         }
