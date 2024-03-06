@@ -3,11 +3,10 @@ import "./index.scss";
 import Button from "../Button";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
-import videoLoop from "../../assets/video.mp4";
 
 const Hero = ({ page }) => {
   return (
-    <div className="hero-container" id="#top">
+    <div className={`hero-container ${page}`} id="#top">
       <div className="overlay"></div>
       {page === "home" ? (
         <div className="hero-content">
