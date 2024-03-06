@@ -8,11 +8,19 @@ function Offer() {
     <div className="offer-container">
       <div className="container">
         <div className="text-container">
-          <h1 className="title">Offer-Promotion</h1>
-          <h3>First-Time hair cut offer</h3>
-          <p>Get a haircut and hairwash for just...</p>
+          <h1 data-aos="fade-right" data-aos-duration="1000" className="title">
+            Offer-Promotion
+          </h1>
+          <h3 data-aos="fade-right" data-aos-duration="1300">
+            First-Time hair cut offer
+          </h3>
+          <p data-aos="fade-right" data-aos-duration="1600">
+            Get a haircut and hairwash for just...
+          </p>
           <div className="more-info">
-            <h2>&#8377; 400</h2>
+            <h2 data-aos="fade-right" data-aos-duration="1900">
+              &#8377; 400
+            </h2>
             {/* <Button 
             label={'more >'}
             /> */}

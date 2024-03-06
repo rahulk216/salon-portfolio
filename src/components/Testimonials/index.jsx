@@ -29,10 +29,10 @@ const Testimonials = () => {
   return (
     <section>
       <div className="testiomonial-container">
-        <h1 data-aos="fade-right" data-aos-duration="2000">
+        <h1 data-aos="fade-right" data-aos-duration="1600">
           What our clients say?
         </h1>
-        <p data-aos="fade-right" data-aos-duration="1000">
+        <p data-aos="fade-right" data-aos-duration="1900">
           Our salon cherishes each customer, aiming to offer a personalized,
           confidence-boosting experience. Explore the testimonials from our
           delighted clients.
