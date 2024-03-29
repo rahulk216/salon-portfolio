@@ -5,6 +5,8 @@ import Facebook from "../../assets/icons/Facebook";
 import Twitter from "../../assets/icons/Twitter";
 import Phone from "../../assets/icons/Phone";
 
+import logo from "../../assets/images/logo2.png";
+
 function Footer() {
   return (
     <div className="footer-container">
@@ -12,7 +14,9 @@ function Footer() {
       <div data-aos="fade-right" data-aos-duration="1000" className="container">
         <div className="row">
           <div className="col">
-            <div className="logo">(Logo Here)</div>
+            <div className="logo">
+              <img src={logo} />
+            </div>
           </div>
           <div className="col">
             <div className="footer-items">
@@ -29,8 +33,7 @@ function Footer() {
                   style={{ border: 0, marginTop: "15px" }}
                   allowFullScreen=""
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
               </ul>
             </div>
           </div>
