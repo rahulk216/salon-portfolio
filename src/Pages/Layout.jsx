@@ -7,11 +7,12 @@ import Offer from "../components/Offer/Offer";
 import ScrollToTop from "../components/ScrollToTop/index";
 import ComingSoon from "../components/ComingSoon";
 import Whatsapp from "../assets/svg/Whatsapp";
+import Header from "../components/Header/Header";
 
 const Layout = () => {
   return (
     <>
-      <ComingSoon />
+      {/* <ComingSoon /> */}
       <a target="_blank" rel="noreferrer" href="https://wa.me/+917829780587">
         <Whatsapp />
       </a>

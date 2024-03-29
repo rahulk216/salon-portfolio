@@ -3,11 +3,13 @@ import "./index.scss";
 import Button from "../Button";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 
 const Hero = ({ page }) => {
   return (
     <div className={`hero-container ${page}`} id="#top">
       <div className="overlay"></div>
+      <Header />
       {page === "home" ? (
         <div className="hero-content">
           <h2 data-aos="fade-right" data-aos-duration="2000">
