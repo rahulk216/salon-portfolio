@@ -22,9 +22,9 @@ function Footer() {
             <div className="footer-items">
               <div className="title">Contact Us</div>
               <ul>
-                <li>Hoigebail ashoknanger mangalore</li>
-                <li>zarah@gmai.com</li>
-                <li>+91 99887766</li>
+                <li>Hoigebail ashoknanger, mangalore</li>
+                <li>zarahelite03@gmail.com</li>
+                <li><a href="tel:+918243578799">+91 8243578799</a></li>
 
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3889.4175307708792!2d74.8600580750749!3d12.880851987426226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDUyJzUxLjEiTiA3NMKwNTEnNDUuNSJF!5e0!3m2!1sen!2sin!4v1709569498183!5m2!1sen!2sin"
