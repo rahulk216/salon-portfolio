@@ -10,7 +10,7 @@ import Whatsapp from "../assets/svg/Whatsapp";
 const Services = () => {
   return (
     <>
-      <ComingSoon />
+      {/* <ComingSoon /> */}
       <a target="_blank" rel="noreferrer" href="https://wa.me/+917829780587">
         <Whatsapp />
       </a>

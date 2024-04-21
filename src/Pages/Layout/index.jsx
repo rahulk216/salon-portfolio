@@ -10,7 +10,7 @@ import ComingSoon from "../../components/ComingSoon";
 const Layout = () => {
   return (
     <>
-      <ComingSoon />
+      {/* <ComingSoon /> */}
       <ScrollToTop />
       <Hero />
       <About />
