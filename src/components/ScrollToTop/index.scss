@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+
+.scroll-to-top-container {
+    position: fixed;
+    z-index: 999;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    //animation
+    animation: smoothbounceball 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+    svg {
+        height: 30px;
+
+        path {
+            fill: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28) !important;
+            stroke: #fff;
+
+        }
+    }
+}
+
+
+@keyframes smoothbounceball {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 10px, 0);
+    }
+}

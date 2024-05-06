@@ -1,12 +1,13 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./index.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 //components
-import Hero from "./components/Hero";
-import Testimonials from "./components/Testimonials";
-import Footer from "./components/Footer/Footer";
+import Layout from "./Pages/Layout";
+import Services from "./Pages/Services";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   useEffect(() => {
@@ -14,9 +15,12 @@ function App() {
   }, []);
   return (
     <>
-      <Hero />
-      <Testimonials />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
+      </Router>
     </>
   );
 }

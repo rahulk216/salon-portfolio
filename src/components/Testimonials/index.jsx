@@ -2,8 +2,13 @@ import React from "react";
 import "./index.scss";
 import Quote from "../../assets/svg/Quote";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+import { Navigation } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import { Pagination } from "swiper/modules";
 
 const TestimonialBox = () => {
   return (
@@ -22,42 +27,44 @@ const TestimonialBox = () => {
 
 const Testimonials = () => {
   return (
-    <div className="testiomonial-container">
-      <h1 data-aos="fade-right" data-aos-duration="2000">
-        What our clients say?
-      </h1>
-      <p data-aos="fade-right" data-aos-duration="1000">
-        Our salon cherishes each customer, aiming to offer a personalized,
-        confidence-boosting experience. Explore the testimonials from our
-        delighted clients.
-      </p>
-      <div className="testiomonial-box-container">
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={50}
-          slidesPerView={1}
-          scrollbar={{ draggable: true }}
-          navigation
-          onSwiper={(swiper) => console.log(swiper)}
-        >
-          <SwiperSlide>
-            <TestimonialBox />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestimonialBox />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestimonialBox />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestimonialBox />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestimonialBox />
-          </SwiperSlide>
-        </Swiper>
+    <section>
+      <div className="testiomonial-container">
+        <h1 data-aos="fade-right" data-aos-duration="1600">
+          What our clients say?
+        </h1>
+        <p data-aos="fade-right" data-aos-duration="1900">
+          Our salon cherishes each customer, aiming to offer a personalized,
+          confidence-boosting experience. Explore the testimonials from our
+          delighted clients.
+        </p>
+        <div className="testiomonial-box-container">
+          <Swiper
+            modules={[Navigation, Pagination]}
+            spaceBetween={50}
+            slidesPerView={1}
+            scrollbar={{ draggable: true }}
+            navigation={true}
+            pagination={true}
+          >
+            <SwiperSlide>
+              <TestimonialBox />
+            </SwiperSlide>
+            <SwiperSlide>
+              <TestimonialBox />
+            </SwiperSlide>
+            <SwiperSlide>
+              <TestimonialBox />
+            </SwiperSlide>
+            <SwiperSlide>
+              <TestimonialBox />
+            </SwiperSlide>
+            <SwiperSlide>
+              <TestimonialBox />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

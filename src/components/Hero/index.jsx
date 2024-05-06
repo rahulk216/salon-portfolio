@@ -1,26 +1,67 @@
 import React from "react";
 import "./index.scss";
 import Button from "../Button";
-import video from "../../assets/video.mp4";
+import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 
-const Hero = () => {
+const Hero = ({ page }) => {
   return (
-    <div className="hero-container">
+    <div className={`hero-container ${page}`} id="#top">
       <div className="overlay"></div>
-      <div className="hero-content">
-        <h2 data-aos="fade-right" data-aos-duration="2000">
-          "Elevate Your Look"
-        </h2>
-        <p data-aos="fade-right" data-aos-duration="1000">
-          at<strong> Zarah Elite Unisex Salon</strong>, where everyone's beauty
-          shines. Step in and discover a world where style knows no boundaries.
-        </p>
-        <Button
-          label="CONTACT US"
-          animation="fade-left"
-          animationDuration="1500"
-        />
-      </div>
+      <Header />
+      {page === "home" ? (
+        <div className="hero-content">
+          <h2 data-aos="fade-right" data-aos-duration="2000">
+            ELEVATE YOUR
+            <Typewriter
+              options={{
+                strings: ["STYLE !!", "CONFIDENCE !!"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h2>
+          <p data-aos="fade-right" data-aos-duration="1000">
+            at<strong> Zarah Elite Unisex Salon</strong>, where everyone's
+            beauty shines. Step in and discover a world where style knows no
+            boundaries.
+          </p>
+          <Link to="/services">
+            <Button
+              label="OUR SERVICES"
+              animation="fade-left"
+              animationDuration="1500"
+            />
+          </Link>
+        </div>
+      ) : (
+        <div className="hero-content">
+          <h2 data-aos="fade-right" data-aos-duration="2000">
+            OUR
+            <Typewriter
+              options={{
+                strings: ["SERVICES"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h2>
+          <p data-aos="fade-right" data-aos-duration="1000">
+            Indulge in luxury at<strong> Zarah Elite Salon</strong>, where
+            expert stylists offer personalized services for a transformative
+            experience. Experience the pinnacle of comfort and style at Zarah
+            Elite Salon.
+          </p>
+          <Link to="/">
+            <Button
+              label="GO BACK"
+              animation="fade-left"
+              animationDuration="1500"
+            />
+          </Link>
+        </div>
+      )}
     </div>
   );
 };
