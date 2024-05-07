@@ -88,3 +88,51 @@
         }
     }
 }
+
+
+
+@media only screen and (min-device-width: 768px) {
+    .service-container {
+        padding: 100px;
+
+        h1 {
+            font-size: 60px;
+        }
+
+        .para {
+            font-size: 24px;
+        }
+
+        div {
+            display: flex;
+            gap: 50px;
+            width: 100%;
+
+            .gender-box {
+                width: 50%;
+                height: 600px;
+
+                &.male {
+                    min-width: auto;
+                }
+
+                &.female {
+                    min-width: auto;
+                }
+            }
+        }
+    }
+
+    .ReactModalPortal {
+        .ReactModal__Overlay {
+            .ReactModal__Content {
+                inset: 40px !important;
+                bottom: auto;
+                width: 50%;
+                height: 45%;
+                top: 20% !important;
+                left: 25% !important;
+            }
+        }
+    }
+}

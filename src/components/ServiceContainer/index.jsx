@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import "./index.scss";
 import { Close } from "../../assets/svg/Close";
-import ZARAH_ELITE_ladies from '/documents/ZARAH_ELITE_Ladies.pdf';
-import ZARAH_ELITE_mens from '/documents/ZARAH_ELITE_mens.pdf';
+import ZARAH_ELITE_ladies from "/documents/ZARAH_ELITE_Ladies.pdf";
+import ZARAH_ELITE_mens from "/documents/ZARAH_ELITE_mens.pdf";
 
 const ServiceContainer = () => {
   const [openModal, setOpenModal] = useState({
@@ -24,35 +24,43 @@ const ServiceContainer = () => {
   return (
     <div className="service-container">
       <h1>Our Services</h1>
-      <div className="gender-box male">
-        <div className="overlay">
-          <p>Gentlemen, Get ready to elevate your style game!</p>
-          <button onClick={() => setOpenModal({ open: true, gender: "male" })}>
-            FOR MEN
-          </button>
+      <p className="para">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, magnam
+        perspiciatis facilis vitae eum necessitatibus soluta veritatis
+        laboriosam provident eligendi eaque quo. Iusto doloribus ullam facere
+        quidem nihil quam corporis?
+      </p>
+      <div>
+        {" "}
+        <div className="gender-box male">
+          <div className="overlay">
+            <p>Gentlemen, Get ready to elevate your style game!</p>
+            <button
+              onClick={() => setOpenModal({ open: true, gender: "male" })}>
+              FOR MEN
+            </button>
+          </div>
+        </div>
+        <div className="gender-box female">
+          <div className="overlay">
+            <p>Ladies, Unlock your inner goddess with Zarah Elite!</p>
+            <button
+              onClick={() => setOpenModal({ open: true, gender: "female" })}>
+              FOR WOMEN
+            </button>
+          </div>
         </div>
       </div>
-      <div className="gender-box female">
-        <div className="overlay">
-          <p>Ladies, Unlock your inner goddess with Zarah Elite!</p>
-          <button
-            onClick={() => setOpenModal({ open: true, gender: "female" })}
-          >
-            FOR WOMEN
-          </button>
-        </div>
-      </div>
+
       <Modal
         isOpen={openModal.open}
-        onRequestClose={() => setOpenModal({ open: false })}
-      >
+        onRequestClose={() => setOpenModal({ open: false })}>
         {openModal.gender === "male" ? (
           <div className="modal men">
             <div className="modal-heading">
               <h1>Men's Services:</h1>
               <span
-                onClick={() => setOpenModal({ open: false, gender: "male" })}
-              >
+                onClick={() => setOpenModal({ open: false, gender: "male" })}>
                 <Close />
               </span>
             </div>
@@ -75,20 +83,18 @@ const ServiceContainer = () => {
               For more information on men's services and pricing kindly download
               the PDF below.
             </p>
-            <button><a
-              href={ZARAH_ELITE_mens}
-              download="ZARAH ELITE Mens"
-            >
-              DOWNLOAD PDF
-            </a></button>
+            <button>
+              <a href={ZARAH_ELITE_mens} download="ZARAH ELITE Mens">
+                DOWNLOAD PDF
+              </a>
+            </button>
           </div>
         ) : (
           <div className="modal women">
             <div className="modal-heading">
               <h1>Women's Services:</h1>
               <span
-                onClick={() => setOpenModal({ open: false, gender: "male" })}
-              >
+                onClick={() => setOpenModal({ open: false, gender: "male" })}>
                 <Close />
               </span>
             </div>
@@ -119,12 +125,11 @@ const ServiceContainer = () => {
               For more information on women's services and pricing kindly
               download the PDF below.
             </p>
-            <button><a
-              href={ZARAH_ELITE_ladies}
-              download="ZARAH ELITE Ladies"
-            >
-              DOWNLOAD PDF
-            </a></button>
+            <button>
+              <a href={ZARAH_ELITE_ladies} download="ZARAH ELITE Ladies">
+                DOWNLOAD PDF
+              </a>
+            </button>
           </div>
         )}
       </Modal>
