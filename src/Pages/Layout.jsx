@@ -5,6 +5,7 @@ import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero";
 import ScrollToTop from "../components/ScrollToTop/index";
 import Testimonials from "../components/Testimonials";
+import Gallery from "../components/Gallery/Gallery";
 
 const Layout = () => {
   return (
@@ -18,6 +19,7 @@ const Layout = () => {
       <About />
       {/* <Offer /> */}
       <Testimonials />
+      <Gallery />
       <Footer />
     </>
   );
