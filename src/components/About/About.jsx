@@ -1,10 +1,7 @@
 import React from "react";
 import "./about.scss";
 import Button from "../Button";
-import Image1 from "../../assets/image-folder/about1.jpg";
-import Image2 from "../../assets/image-folder/about2.jpg";
-import Image3 from "../../assets/image-folder/about3.jpeg";
-import Image4 from "../../assets/image-folder/about4.jpg";
+import { IMAGE_URL } from "../../constant";
 
 function About() {
   const handleButtonClick = () => {
@@ -38,19 +35,19 @@ function About() {
       <div className="image-container">
         <div className="image-1">
           <div className="overlay-1"></div>
-          <img src={Image3} alt="photo" />
+          <img src={`${IMAGE_URL}/image-folder/about3.jpg`} alt="photo" />
         </div>
         <div className="image-2">
           <div className="overlay-2"></div>
-          <img src={Image1} alt="photo" />
+          <img src={`${IMAGE_URL}/image-folder/about1.jpg`} alt="photo" />
         </div>
         <div className="image-3">
           <div className="overlay-3"></div>
-          <img src={Image2} alt="photo" />
+          <img src={`${IMAGE_URL}/image-folder/about2.jpg`} alt="photo" />
         </div>
         <div className="image-4">
           <div className="overlay-4"></div>
-          <img src={Image4} alt="photo" />
+          <img src={`${IMAGE_URL}/image-folder/about4.jpg`} alt="photo" />
         </div>
       </div>
     </div>

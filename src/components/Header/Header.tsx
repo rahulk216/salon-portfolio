@@ -1,13 +1,12 @@
 import React from "react";
 import "./index.scss";
-
-import logo from "../../assets/images/logo2.png";
 import Hamburger from "../../assets/svg/hamburger";
+import { IMAGE_URL } from "../../constant";
 
 const Header = () => {
   return (
     <div className="header-container">
-      <img src={logo} />
+      <img src={`${IMAGE_URL}/images/logo2.png`} />
       <Hamburger />
     </div>
   );

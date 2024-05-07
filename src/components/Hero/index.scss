@@ -1,14 +1,14 @@
 @import '../../variables.scss';
 
 .hero-container {
-    background: url('../../assets/image-folder/hero.JPG');
+    background: url('https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/hero.JPG');
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 
     &.service {
-        background: url('../../assets/images/serviceBg.jpg');
+        background: url('https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/hero.JPG');
         background-repeat: no-repeat;
         background-size: cover;
     }
