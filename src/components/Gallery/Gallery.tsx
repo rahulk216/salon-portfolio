@@ -22,6 +22,7 @@ function Gallery() {
   return (
     <section>
     <div className="gallery-container">
+    <div className='overlay'></div>
     <div className='gallery-text-container-mobile'>
       <h1>
       Gallery
