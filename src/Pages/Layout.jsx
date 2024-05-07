@@ -18,8 +18,8 @@ const Layout = () => {
       <Hero page="home" />
       <About />
       {/* <Offer /> */}
-      <Testimonials />
       <Gallery />
+      <Testimonials />
       <Footer />
     </>
   );

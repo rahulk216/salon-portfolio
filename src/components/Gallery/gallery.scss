@@ -3,9 +3,21 @@
 section {
 
     .gallery-container {
-      background-color: #333;
+      background: url('https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/about2.jpg');
+      background-size: cover;
       color: #fff;
       padding: 20px $margin-container;
+      position: relative;
+
+      .overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        opacity: 0.7;
+        top: 0;
+        left: 0;
+      }
 
         h1 {
           font-size: 2em;
@@ -61,6 +73,10 @@ section {
         .gallery-text-container-web{
             display: none;
         }
+
+        .gallery-text-container-mobile{
+            position: relative;
+        }
     }
 }
 
@@ -94,6 +110,7 @@ section {
                 text-align: center;
                 flex-direction: column;
                 align-items: center;
+                position: relative;
             }
         }
     }
