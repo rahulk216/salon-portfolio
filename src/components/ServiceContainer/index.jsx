@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import "./index.scss";
 import { Close } from "../../assets/svg/Close";
+import ZARAH_ELITE_ladies from '/documents/ZARAH_ELITE_Ladies.pdf';
+import ZARAH_ELITE_mens from '/documents/ZARAH_ELITE_mens.pdf';
 
 const ServiceContainer = () => {
   const [openModal, setOpenModal] = useState({
@@ -73,7 +75,12 @@ const ServiceContainer = () => {
               For more information on men's services and pricing kindly download
               the PDF below.
             </p>
-            <button>DOWNLOAD PDF</button>
+            <button><a
+              href={ZARAH_ELITE_mens}
+              download="ZARAH ELITE Mens"
+            >
+              DOWNLOAD PDF
+            </a></button>
           </div>
         ) : (
           <div className="modal women">
@@ -112,7 +119,12 @@ const ServiceContainer = () => {
               For more information on women's services and pricing kindly
               download the PDF below.
             </p>
-            <button>DOWNLOAD PDF</button>
+            <button><a
+              href={ZARAH_ELITE_ladies}
+              download="ZARAH ELITE Ladies"
+            >
+              DOWNLOAD PDF
+            </a></button>
           </div>
         )}
       </Modal>
