@@ -1,98 +1,102 @@
 @import '../../variables.scss';
 
-.about-container{
-padding: 35px $margin-container;
+.about-container {
+  padding: 35px $margin-container;
 
-.text-container {
-  button {
+  .text-container {
+    button {
       border: 1px solid #DF9F28;
-  }
-}
-
-.image-container{
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-
-  .image-1 {
-    position: relative;
-    grid-row: 1 / span 2;
-  
-    .overlay-1 {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-color: #000;
-      opacity: 0.6;
-      transition: opacity 0.3s;
-    }
-  
-    &:hover .overlay-1 {
-      opacity: 0;
-      background-color: transparent;
-    }
-  }
- .image-2{
-    position: relative;
-    grid-row: 1/ span 1;
-
-    .overlay-2 {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-color: #000;
-      opacity: 0.6;
-      transition: opacity 0.3s;
-    }
-  
-    &:hover .overlay-2 {
-      opacity: 0;
-      background-color: transparent;
     }
   }
 
-  .image-3 {
-    position: relative;
+  .image-container {
 
-    .overlay-3 {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-color: #000;
-      opacity: 0.6;
-      transition: opacity 0.3s;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+    .image-1 {
+      position: relative;
+      grid-row: 1 / span 2;
+
+      .overlay-1 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+      }
+
+      &:hover .overlay-1 {
+        opacity: 0;
+        background-color: transparent;
+      }
     }
-  
-    &:hover .overlay-3 {
-      opacity: 0;
-      background-color: transparent;
+
+    .image-2 {
+      position: relative;
+      grid-row: 1/ span 1;
+
+      .overlay-2 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+      }
+
+      &:hover .overlay-2 {
+        opacity: 0;
+        background-color: transparent;
+      }
+    }
+
+    .image-3 {
+      position: relative;
+
+      .overlay-3 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+      }
+
+      &:hover .overlay-3 {
+        opacity: 0;
+        background-color: transparent;
+      }
+
+    }
+
+    .image-4 {
+      position: relative;
+
+      .overlay-4 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+      }
+
+      &:hover .overlay-4 {
+        opacity: 0;
+        background-color: transparent;
+      }
+
+      grid-row: 2/ span 2;
+    }
+
+    img {
+      object-fit: cover;
     }
 
   }
-  .image-4 {
-    position: relative;
-    .overlay-4 {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-color: #000;
-      opacity: 0.6;
-      transition: opacity 0.3s;
-    }
-  
-    &:hover .overlay-4 {
-      opacity: 0;
-      background-color: transparent;
-    }
-    grid-row: 2/ span 2;
-  }
-
-  img{
-    object-fit: cover;
-  }
-
-}
 
 }
 
@@ -103,22 +107,22 @@ padding: 35px $margin-container;
     align-items: center;
     width: 100%;
 
-    .text-container{
+    .text-container {
       width: 50%;
-      padding: 30px;
+      padding: 80px;
 
-      .title{
+      .title {
         font-size: 60px;
       }
 
-      p{
+      p {
         font-size: 20px;
       }
 
     }
 
 
-    .image-container{
+    .image-container {
       width: 40%;
       padding: 70px;
     }

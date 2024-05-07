@@ -19,7 +19,7 @@ const Layout = () => {
       <ScrollToTop />
       <Hero page="home" />
       <About />
-      <Offer />
+      {/* <Offer /> */}
       <Testimonials />
       <Footer />
     </>

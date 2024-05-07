@@ -1,7 +1,7 @@
 @import '../../variables.scss';
 
 .footer-container {
-  background-image: url('/footerbg.jpg');
+  background-image: url('../../assets/image-folder/footer.jpg');
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
     max-width: 100%;
     position: relative;
 
-    .web-footer-row{
+    .web-footer-row {
       display: none;
     }
 
@@ -70,7 +70,7 @@
             color: $color2;
             font-size: 1rem;
 
-            a{
+            a {
               text-decoration: none;
               color: $color2;
             }
@@ -126,26 +126,27 @@
 
     .container {
 
-      .mobile-view-row{
+      .mobile-view-row {
         display: none;
       }
 
-      .web-footer-row{
+      .web-footer-row {
         display: flex !important;
         flex-direction: column;
 
-        .map-container{
+        .map-container {
           display: flex;
           align-items: center;
           justify-content: center;
-          iframe{
+
+          iframe {
             height: 300px;
             width: 900px;
           }
         }
 
 
-        .footer-content{
+        .footer-content {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -155,18 +156,18 @@
           display: flex;
           width: 33%;
           justify-content: center;
-  
+
           .footer-items {
             margin-bottom: 10px;
             padding: 0 10px;
-  
+
             .title {
               color: $color2;
               margin-bottom: 15px;
               font-size: 1.2rem;
               font-weight: 500;
             }
-  
+
             ul,
             li {
               list-style: none;
@@ -174,8 +175,8 @@
               margin: 0px;
               color: $color2;
               font-size: 1rem;
-  
-              a{
+
+              a {
                 text-decoration: none;
                 color: $color2;
               }

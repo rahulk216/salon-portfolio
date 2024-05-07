@@ -1,7 +1,5 @@
 import React from "react";
-import offerImage from "../../assets/images/offer-image.jpeg";
 import "./offer.scss";
-import Button from "../Button";
 
 function Offer() {
   return (

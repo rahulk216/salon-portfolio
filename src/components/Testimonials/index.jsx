@@ -42,10 +42,23 @@ const Testimonials = () => {
             modules={[Navigation, Pagination]}
             spaceBetween={50}
             slidesPerView={1}
+            breakpoints={{
+              768: {
+                slidesPerView: 2,
+              },
+            }}
             scrollbar={{ draggable: true }}
             navigation={true}
-            pagination={true}
-          >
+            pagination={true}>
+            <SwiperSlide>
+              <TestimonialBox />
+            </SwiperSlide>
+            <SwiperSlide>
+              <TestimonialBox />
+            </SwiperSlide>
+            <SwiperSlide>
+              <TestimonialBox />
+            </SwiperSlide>
             <SwiperSlide>
               <TestimonialBox />
             </SwiperSlide>
