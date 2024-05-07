@@ -1,0 +1,100 @@
+@import '../../variables.scss';
+
+section {
+
+    .gallery-container {
+      background-color: #333;
+      color: #fff;
+      padding: 20px $margin-container;
+
+        h1 {
+          font-size: 2em;
+        }
+
+        .gallery-box {
+            margin: 20px 30px;
+            border-radius: 20px;
+            background-color: $color2;
+        }
+
+        .swiper {
+
+            .swiper-button-prev::after {
+                content: '';
+                border: 2px solid #fff;
+                border-width: 0 3px 3px 0;
+                display: inline-block;
+                padding: 5px;
+                transform: rotate(135deg);
+                -webkit-transform: rotate(135deg);
+                margin-left: -16px;
+            }
+
+            .swiper-button-next::after {
+                content: '';
+                border: 2px solid #fff;
+                border-width: 0 3px 3px 0;
+                display: inline-block;
+                padding: 5px;
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+                margin-right: -13px;
+            }
+
+            .swiper-pagination {
+                bottom: 0;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                @include color3;
+            }
+
+            .swiper-pagination {
+                &-bullet-active {
+                    @include color3;
+                    -webkit-background-clip: inherit;
+                }
+            }
+        }
+
+        .gallery-text-container-web{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    section {
+        .gallery-container {
+            display: flex;
+            align-items: center;
+            padding: 50px 100px;
+
+            h1 {
+                font-size: 60px;
+            }
+
+            p {
+                font-size: 20px;
+                width: 50%;
+            }
+
+            .gallery-box-container{
+                width: 50%;
+            }
+
+            .gallery-text-container-mobile{
+                display: none;
+            }
+
+            .gallery-text-container-web{
+                width: 100%;
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
