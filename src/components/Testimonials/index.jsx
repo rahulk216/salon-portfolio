@@ -63,7 +63,7 @@ const Testimonials = () => {
         <h1 data-aos="fade-right" data-aos-duration="1600">
           What our clients say?
         </h1>
-        <p data-aos="fade-right" data-aos-duration="1900">
+        <p data-aos="fade-right" data-aos-duration="1900" className="test-desc">
           Our salon cherishes each customer, aiming to offer a personalized,
           confidence-boosting experience. Explore the testimonials from our
           delighted clients.
