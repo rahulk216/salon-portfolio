@@ -42,10 +42,6 @@
 
         .overlay {
             @include overlay;
-
-            p {
-                font-size: 24px;
-            }
         }
     }
 
@@ -123,6 +119,18 @@
 
                 &.female {
                     min-width: auto;
+                }
+
+                .overlay {
+
+                    p {
+                        font-size: 24px;
+                        margin-bottom: 20px;
+                    }
+
+                    button {
+                        font-size: 28px;
+                    }
                 }
             }
         }
