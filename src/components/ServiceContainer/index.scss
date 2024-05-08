@@ -42,6 +42,10 @@
 
         .overlay {
             @include overlay;
+
+            p {
+                font-size: 24px;
+            }
         }
     }
 
@@ -54,6 +58,7 @@
         .ReactModal__Content {
             inset: auto !important;
             bottom: 0 !important;
+            padding-bottom: 0px !important;
 
             .modal {
                 h1 {
@@ -132,6 +137,7 @@
                 height: 45%;
                 top: 20% !important;
                 left: 25% !important;
+                padding-bottom: 0px !important;
             }
         }
     }
