@@ -42,11 +42,15 @@ const Testimonials = () => {
             modules={[Navigation, Pagination]}
             spaceBetween={50}
             slidesPerView={1}
-            breakpoints={{
-              768: {
-                slidesPerView: 2,
-              },
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
             }}
+            // breakpoints={{
+            //   768: {
+            //     slidesPerView: 3,
+            //   },
+            // }}
             scrollbar={{ draggable: true }}
             navigation={true}
             pagination={true}>

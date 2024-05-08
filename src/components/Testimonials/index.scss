@@ -10,11 +10,21 @@ section {
             font-size: 32px;
         }
 
+        .testiomonial-box-container {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+            .swiper {
+                width: 100%;
+            }
+        }
+
         .testimonial-box {
             margin: 20px 0;
-            border: 1px solid #d9d4d4;
             padding: 40px;
             background-color: $color2;
+            text-align: center;
 
             svg {
                 rotate: 10deg;
@@ -77,13 +87,18 @@ section {
         .testiomonial-container {
             padding: 100px;
 
+            .testiomonial-box-container {
+                .swiper {
+                    width: 60%;
+                }
+            }
+
             h1 {
                 font-size: 60px;
             }
 
             p {
                 font-size: 20px;
-                width: 50%;
             }
         }
     }

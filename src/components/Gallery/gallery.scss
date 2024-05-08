@@ -3,28 +3,29 @@
 section {
 
     .gallery-container {
-      background: url('https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/about2.jpg');
-      background-size: cover;
-      color: #fff;
-      padding: 20px $margin-container;
-      position: relative;
+        background: url('https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/about2.jpg');
+        background-size: cover;
+        color: #fff;
+        padding: 20px $margin-container;
+        position: relative;
 
-      .overlay{
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: #000;
-        opacity: 0.7;
-        top: 0;
-        left: 0;
-      }
+        .overlay {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+            opacity: 0.7;
+            top: 0;
+            left: 0;
+        }
 
         h1 {
-          font-size: 2em;
+            font-size: 2em;
+            text-align: left;
         }
 
         .gallery-box {
-            margin: 20px 30px;
+            margin: 20px 0px;
             border-radius: 20px;
             background-color: $color2;
         }
@@ -70,11 +71,11 @@ section {
             }
         }
 
-        .gallery-text-container-web{
+        .gallery-text-container-web {
             display: none;
         }
 
-        .gallery-text-container-mobile{
+        .gallery-text-container-mobile {
             position: relative;
         }
     }
@@ -89,22 +90,23 @@ section {
 
             h1 {
                 font-size: 60px;
+                text-align: left;
             }
 
             p {
                 font-size: 20px;
+                width: 80%;
+            }
+
+            .gallery-box-container {
                 width: 50%;
             }
 
-            .gallery-box-container{
-                width: 50%;
-            }
-
-            .gallery-text-container-mobile{
+            .gallery-text-container-mobile {
                 display: none;
             }
 
-            .gallery-text-container-web{
+            .gallery-text-container-web {
                 width: 100%;
                 display: flex;
                 text-align: center;
