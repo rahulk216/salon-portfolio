@@ -120,7 +120,10 @@ function Footer() {
               <Twitter />
             </a>
 
-            <Phone />
+            <a href="tel:+918243578799">
+              {" "}
+              <Phone />
+            </a>
           </div>
           <div className="copyright">
             <p>

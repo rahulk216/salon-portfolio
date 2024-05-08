@@ -23,9 +23,13 @@ const Hero = ({ page }) => {
             />
           </h2>
           <p data-aos="fade-right" data-aos-duration="1000">
-            at<strong> Zarah Elite Unisex Salon</strong>, where everyone's
-            beauty shines. Step in and discover a world where style knows no
-            boundaries.
+            at
+            <strong>
+              {" "}
+              Zarah Elite Professional Unisex Salon ( LIGHT UP YOUR BEAUTY )
+            </strong>
+            , where everyone's beauty shines. Step in and discover a world where
+            style knows no boundaries.
           </p>
           <Link to="/services">
             <Button
