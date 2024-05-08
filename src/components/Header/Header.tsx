@@ -3,6 +3,7 @@ import "./index.scss";
 import Hamburger from "../../assets/svg/hamburger";
 import { IMAGE_URL } from "../../constant";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -19,9 +20,9 @@ const Header = () => {
           <AnchorLink href="#testimonials">
             <li>Testimonial</li>
           </AnchorLink>
-          <AnchorLink href="#services">
+          <Link to="/services">
             <li>Services</li>
-          </AnchorLink>
+          </Link>
           <AnchorLink href="#contact-us">
             <li>Contact Us</li>
           </AnchorLink>
