@@ -1,32 +1,35 @@
 @import '../../variables.scss';
 
-.offer-container{
+.offer-container {
   position: relative;
 
-  .container{
+  .container {
     display: flex;
     flex-direction: column;
 
-    .text-container{
+    .text-container {
       position: relative;
       padding: 35px $margin-container;
       background-color: #000;
       color: $color2;
 
-      h3{
+      h3 {
         @include color3
       }
-      .more-info{
+
+      .more-info {
         display: flex;
         align-items: center;
         gap: 40px;
 
       }
     }
-    .image-container{
+
+    .image-container {
       position: relative;
       background-size: cover;
-      .offer-overlay{
+
+      .offer-overlay {
         position: absolute;
         top: 0;
         left: 0;
@@ -34,7 +37,7 @@
         height: 100%;
         background: linear-gradient(to bottom, black 0%, transparent 100%);
         transition: opacity 0.3s;
-    
+
       }
     }
   }

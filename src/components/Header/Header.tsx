@@ -7,7 +7,18 @@ const Header = () => {
   return (
     <div className="header-container">
       <img src={`${IMAGE_URL}/images/logo2.png`} />
-      <Hamburger />
+      <div className="web-view-links">
+        <ul>
+          <li>About Us</li>
+          <li>Gallery</li>
+          <li>Testimonial</li>
+          <li>Services</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div className="mobile-view-links">
+        <Hamburger />
+      </div>
     </div>
   );
 };
