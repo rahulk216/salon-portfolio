@@ -35,7 +35,7 @@ function About() {
       <div className="image-container">
         <div className="image-1">
           <div className="overlay-1"></div>
-          <img src={`${IMAGE_URL}/image-folder/about3.jpg`} alt="photo" />
+          <img src={`${IMAGE_URL}/gallery-images/gallery10.JPG`} alt="photo" />
         </div>
         <div className="image-2">
           <div className="overlay-2"></div>

@@ -1,11 +1,26 @@
 @import '../../variables.scss';
 
 .hero-container {
-    background: url('https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/hero.JPG');
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+    height: 80vh;
+
+    .hero-slider {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -10;
+
+        .swiper {
+            .swiper-wrapper {
+                .swiper-slide {
+                    img {
+                        height: 80vh;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
 
     &.service {
         background: url('https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/hero.JPG');
@@ -57,6 +72,19 @@
 @media only screen and (min-device-width: 768px) {
     .hero-container {
         height: 90vh;
+
+        .hero-slider {
+            .swiper {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        img {
+                            height: 90vh;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
 
         .hero-content {
             justify-content: flex-start;

@@ -5,9 +5,46 @@ import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 
+//swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade, EffectCreative } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-fade";
+
 const Hero = ({ page }) => {
   return (
     <div className={`hero-container ${page}`} id="#top">
+      <div className="hero-slider">
+        <Swiper
+          modules={[Autoplay, EffectFade]}
+          spaceBetween={50}
+          slidesPerView={1}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          effect={"fade"}
+          scrollbar={{ draggable: true }}>
+          <SwiperSlide>
+            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/hero.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery2.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery3.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery4.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery5.JPG" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery6.JPG" />
+          </SwiperSlide>
+        </Swiper>
+      </div>
       <div className="overlay"></div>
       <Header />
       {page === "home" ? (
