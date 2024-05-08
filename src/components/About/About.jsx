@@ -12,7 +12,7 @@ function About() {
   };
 
   return (
-    <div className="about-container">
+    <div className="about-container" id="about-us">
       <div className="text-container">
         <h1 className="title">About Us</h1>
         <p>

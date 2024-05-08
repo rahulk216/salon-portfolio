@@ -25,7 +25,7 @@ function Gallery() {
 
   return (
     <section>
-      <div className="gallery-container">
+      <div className="gallery-container" id="gallery">
         <div className="overlay"></div>
         <div className="gallery-text-container">
           <h1>Gallery</h1>

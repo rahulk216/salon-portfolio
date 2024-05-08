@@ -2,6 +2,7 @@ import React from "react";
 import "./index.scss";
 import Hamburger from "../../assets/svg/hamburger";
 import { IMAGE_URL } from "../../constant";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Header = () => {
   return (
@@ -9,11 +10,21 @@ const Header = () => {
       <img src={`${IMAGE_URL}/images/logo2.png`} />
       <div className="web-view-links">
         <ul>
-          <li>About Us</li>
-          <li>Gallery</li>
-          <li>Testimonial</li>
-          <li>Services</li>
-          <li>Contact Us</li>
+          <AnchorLink href="#about-us">
+            <li>About Us</li>
+          </AnchorLink>
+          <AnchorLink href="#gallery">
+            <li>Gallery</li>
+          </AnchorLink>
+          <AnchorLink href="#testimonials">
+            <li>Testimonial</li>
+          </AnchorLink>
+          <AnchorLink href="#services">
+            <li>Services</li>
+          </AnchorLink>
+          <AnchorLink href="#contact-us">
+            <li>Contact Us</li>
+          </AnchorLink>
         </ul>
       </div>
       <div className="mobile-view-links">

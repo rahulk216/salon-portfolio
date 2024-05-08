@@ -42,15 +42,19 @@
                 list-style: none;
                 gap: 40px;
 
-                li {
-                    font-size: 24px;
-                    color: #fff;
-                    text-transform: uppercase;
-                    cursor: pointer;
-                }
+                a {
+                    text-decoration: none;
 
-                li:hover {
-                    @include color3;
+                    li {
+                        font-size: 24px;
+                        color: #fff;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                    }
+
+                    li:hover {
+                        @include color3;
+                    }
                 }
             }
         }

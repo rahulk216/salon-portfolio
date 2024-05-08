@@ -8,7 +8,7 @@ import { IMAGE_URL } from "../../constant";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="contact-us">
       <div className="overlay"></div>
       <div data-aos="fade-right" data-aos-duration="1000" className="container">
         <div className="mobile-view-row">

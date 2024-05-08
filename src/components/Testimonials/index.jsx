@@ -59,7 +59,7 @@ const TestimonialBox = ({ testimonial }) => {
 const Testimonials = () => {
   return (
     <section>
-      <div className="testiomonial-container">
+      <div className="testiomonial-container" id="testimonials">
         <h1 data-aos="fade-right" data-aos-duration="1600">
           What our clients say?
         </h1>
