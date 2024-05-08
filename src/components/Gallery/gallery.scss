@@ -71,11 +71,7 @@ section {
             }
         }
 
-        .gallery-text-container-web {
-            display: none;
-        }
-
-        .gallery-text-container-mobile {
+        .gallery-text-container{
             position: relative;
         }
     }
@@ -102,11 +98,12 @@ section {
                 width: 50%;
             }
 
-            .gallery-text-container-mobile {
-                display: none;
+            .gallery-box-container{
+                width: 50%;
             }
 
-            .gallery-text-container-web {
+            .gallery-text-container{
+                order: 1;
                 width: 100%;
                 display: flex;
                 text-align: center;
