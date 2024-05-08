@@ -21,7 +21,7 @@ function Footer() {
             <div className="footer-items">
               <div className="title">Contact Us</div>
               <ul>
-                <li>Hoigebail ashoknanger, mangalore</li>
+                <li>Nova Arcade, Kadri tol Gate, Nantoor Post Mangalore</li>
                 <li>zarahelite03@gmail.com</li>
                 <li>
                   <a href="tel:+918243578799">+91 8243578799</a>
@@ -111,9 +111,15 @@ function Footer() {
         </div>
         <div className="bottom-container">
           <div className="social-container">
-            <Instagram />
+            <a href="https://www.instagram.com/zarah_elite?igsh=MTk4azRud2VoajM1aQ==">
+              <Instagram />
+            </a>
+
             <Facebook />
-            <Twitter />
+            <a href="https://twitter.com/ZarahElite">
+              <Twitter />
+            </a>
+
             <Phone />
           </div>
           <div className="copyright">

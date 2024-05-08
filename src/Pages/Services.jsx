@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <>
       {/* <ComingSoon /> */}
-      <a target="_blank" rel="noreferrer" href="https://wa.me/+917829780587">
+      <a target="_blank" rel="noreferrer" href="https://wa.me/+919019725884">
         <Whatsapp />
       </a>
       <ScrollToTop />
