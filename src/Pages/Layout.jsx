@@ -6,6 +6,9 @@ import Hero from "../components/Hero";
 import ScrollToTop from "../components/ScrollToTop/index";
 import Testimonials from "../components/Testimonials";
 import Gallery from "../components/Gallery/Gallery";
+import MessageOwner from "../components/MessageOwner";
+import Marquee from "react-fast-marquee";
+import "./index.scss";
 
 const Layout = () => {
   return (
@@ -20,6 +23,12 @@ const Layout = () => {
       {/* <Offer /> */}
       <Gallery />
       <Testimonials />
+      <MessageOwner />
+      <div className="zarah-marquee">
+        <Marquee>
+          <p>ZARAH ELITE PROFESSIONAL UNISEX SALON</p>
+        </Marquee>
+      </div>
       <Footer />
     </>
   );

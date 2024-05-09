@@ -1,0 +1,82 @@
+section {
+    .owner-container {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background: url('https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/hero.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        .overlay {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+            opacity: 0.5;
+            top: 0;
+            left: 0;
+        }
+
+        .owner-text {
+            position: relative;
+
+            h1 {
+                line-height: 32px;
+                color: #fff;
+            }
+
+            p {
+                margin-top: 10px;
+                color: #fff;
+            }
+        }
+
+        .owner-img {
+            position: relative;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    section {
+        .owner-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+            .overlay {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background-color: #000;
+                opacity: 0.5;
+                top: 0;
+                left: 0;
+            }
+
+            .owner-text {
+                position: relative;
+                width: 50%;
+
+                h1 {
+                    line-height: 60px;
+                    color: #fff;
+                    font-size: 60px;
+                }
+
+                p {
+                    margin-top: 10px;
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+
+            .owner-img {
+                position: relative;
+                width: 50%;
+            }
+        }
+    }
+}
