@@ -28,9 +28,7 @@ const Header = () => {
           </AnchorLink>
         </ul>
       </div>
-      <div className="mobile-view-links">
-        <Hamburger />
-      </div>
+      <div className="mobile-view-links">{/* <Hamburger /> */}</div>
     </div>
   );
 };
