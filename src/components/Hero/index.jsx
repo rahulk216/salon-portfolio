@@ -26,22 +26,22 @@ const Hero = ({ page }) => {
           effect={"fade"}
           scrollbar={{ draggable: true }}>
           <SwiperSlide>
-            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/image-folder/hero.JPG" />
+            <img src="/images/hero.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery2.JPG" />
+            <img src="/gallery-images/gallery2.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery3.JPG" />
+            <img src="/gallery-images/gallery3.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery4.JPG" />
+            <img src="/gallery-images/gallery4.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery5.JPG" />
+            <img src="/gallery-images/gallery5.JPG" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery6.JPG" />
+            <img src="/gallery-images/gallery6.JPG" />
           </SwiperSlide>
         </Swiper>
       </div>
