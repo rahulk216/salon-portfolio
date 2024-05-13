@@ -12,15 +12,25 @@ function Gallery() {
     );
   };
 
+  // const galleryImages = [
+  //   "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery2.JPG",
+  //   "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery1.JPG",
+  //   "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery3.JPG",
+  //   "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery4.JPG",
+  //   "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery5.JPG",
+  //   "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery6.JPG",
+  //   "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery7.JPG",
+  //   "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery8.JPG",
+  // ];
   const galleryImages = [
-    "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery2.JPG",
-    "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery1.JPG",
-    "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery3.JPG",
-    "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery4.JPG",
-    "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery5.JPG",
-    "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery6.JPG",
-    "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery7.JPG",
-    "https://cdn.jsdelivr.net/gh/kdhanush/zarah-images/assets/gallery-images/gallery8.JPG",
+    "/gallery-images/gallery2.JPG",
+    "/gallery-images/gallery1.JPG",
+    "/gallery-images/gallery3.JPG",
+    "/gallery-images/gallery4.JPG",
+    "/gallery-images/gallery5.JPG",
+    "/gallery-images/gallery6.JPG",
+    "/gallery-images/gallery7.JPG",
+    "/gallery-images/gallery8.JPG",
   ];
 
   return (
