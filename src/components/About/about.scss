@@ -18,6 +18,7 @@
     .image-1 {
       position: relative;
       grid-row: 1 / span 2;
+      display: flex;
 
       .overlay-1 {
         position: absolute;
@@ -94,7 +95,6 @@
 
     img {
       object-fit: cover;
-      height: 100%;
     }
 
   }
