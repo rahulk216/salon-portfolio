@@ -19,6 +19,10 @@
     .mobile-view-links {
         display: block;
     }
+
+    .mobile-sidebar {
+        position: fixed;
+    }
 }
 
 @media only screen and (min-device-width: 768px) {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.scss";
-import owner from "../../assets/owner.jpg";
+import owner from "../../assets/zara.jpg";
 
 const MessageOwner = () => {
   return (
@@ -8,7 +8,7 @@ const MessageOwner = () => {
       <div className="owner-container">
         <div className="overlay"></div>
         <div className="owner-text">
-          <h1>A message from our owner</h1>
+          <h1>A Message from Our Managing Director</h1>
           <p>
             <p>Dear Valued Customers,</p>
             <p>
