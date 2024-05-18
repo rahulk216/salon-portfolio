@@ -31,9 +31,9 @@ const Header = () => {
         </ul>
       </div>
       <div className="mobile-view-links">
-        <span onClick={() => setShowHeader(!showHeader)}>
+        {/* <span onClick={() => setShowHeader(!showHeader)}>
           <Hamburger />
-        </span>
+        </span> */}
       </div>
       {showHeader && (
         <div className="mobile-sidebar">
