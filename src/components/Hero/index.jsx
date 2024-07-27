@@ -68,6 +68,7 @@ const Hero = ({ page }) => {
             , where everyone's beauty shines. Step in and discover a world where
             style knows no boundaries.
           </p>
+          <a className='phone-container' href='tel:+919019725884'><p>Phone : <strong>+91 9019725884</strong></p></a>
           <Link to="/services">
             <Button
               label="OUR SERVICES"
